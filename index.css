@@ -1,3 +1,6 @@
+nav {
+    background-color: rosybrown;
+}
 .container > div {
   padding: 10px;
   text-align: center;
@@ -18,4 +21,5 @@
 
 .container {
     display: flex;
+    justify-content: space-around;
 }
