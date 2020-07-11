@@ -1,3 +1,21 @@
+.container > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: black;
+}
+.container > div:nth-child(1) {
+    background-color: blue;
+}
+
+.container > div:nth-child(2) {
+    background-color: yellow;
+}
+
+.container > div:nth-child(3) {
+    background-color: green;
+}
+
 .container {
     display: flex;
 }
