@@ -25,3 +25,6 @@ nav {
     display: flex;
     justify-content: flex-end;
 }
+.container > div{
+    flex: 1;
+}
