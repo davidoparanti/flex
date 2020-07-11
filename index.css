@@ -9,6 +9,7 @@ nav {
 }
 .container > div:nth-child(1) {
     background-color: blue;
+    margin-right: auto;
 }
 
 .container > div:nth-child(2) {
@@ -17,9 +18,10 @@ nav {
 
 .container > div:nth-child(3) {
     background-color: green;
+   
 }
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
 }
